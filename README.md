@@ -4,7 +4,7 @@ By Invent Partners [http://inventpartners.com]
 A simple jQuery concertina menu which maintains state between page requests using cookies.
 
 ## Demo
-Check out the [demo](https://github.com/InventPartners/flex-responsive-burger-menu/blob/master/index.html).
+Check out the [demo](https://inventpartners.github.io/flex-responsive-burger-menu/).
 
 ## Requirements
 [jQuery](https://jquery.com/) is the only requirement for this plugin.
