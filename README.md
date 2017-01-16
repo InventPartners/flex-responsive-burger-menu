@@ -1,7 +1,7 @@
 # Invent Flex Responsive jQuery Burger Menu Demo
 By Invent Partners [http://inventpartners.com]
 
-This responsive menu plugin displays a horizontal menu on desktop / large tablet displays, and collapses to a slide out burger meno on smaller mobile devices.
+This responsive menu plugin displays a horizontal menu on desktop / large tablet displays, and collapses to a slide out burger menu on smaller mobile devices.
 
 The burger aligns right by default, and will slide out of the right hand side of the screen by default. It can be aligned left by adding a class of &quot;left&quot; to the menu button and to the menu itself.
 
