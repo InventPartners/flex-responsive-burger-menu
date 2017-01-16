@@ -1,0 +1,7 @@
+/*!
+ * Compile with:
+ * sass --no-cache sass/nav.scss css/nav.css
+ * sass --no-cache sass/nav.scss css/nav.min.css --style compressed
+ */
+
+@import "nav-elements.scss";

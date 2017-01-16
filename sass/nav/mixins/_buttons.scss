@@ -1,0 +1,10 @@
+@mixin inv-button($background-color, $text-color , $hover-background-color, $hover-text-color) {
+	background-color: $background-color;
+	color: $text-color !important;
+	text-decoration: none !important;
+	&:hover {
+		background-color: $hover-background-color;
+		color: $hover-text-color !important;
+		text-decoration: none !important;
+	}
+}

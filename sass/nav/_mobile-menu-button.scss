@@ -1,0 +1,52 @@
+#inv-nav-main-btn {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	display: block;
+	border: 0;
+	background-color: rgba(0,0,0, 0.2);
+	color: #FFF;
+	line-height: 32px;
+	font-size: 22px;
+	padding: 10px;
+	margin: 0;
+	transition-property: right;
+	transition-duration: 0.15s;
+	transition-timing-function: linear;
+	
+	&:focus {
+		outline: 0;
+		outline: none;
+		-webkit-appearance: none;
+	}
+	
+	@media screen and (min-width: $screen-md-min) {
+		display: none;
+	}
+	
+	.hamburger-inner ,
+	.hamburger-inner::before ,
+	.hamburger-inner::after {
+		background-color: $hamburger-text-color;
+	}
+	
+	&.is-active {
+		right: $burger-menu-width;
+		background-color: $hamburger-background-color;
+		
+		span.text {
+			display: none;
+		}
+	}
+	
+	&.left {
+		left: 0px;
+		right: auto;
+		transition-property: left;
+		&.is-active {
+			left: $burger-menu-width;
+			right: auto;
+		}
+	}
+	
+}

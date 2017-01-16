@@ -1,0 +1,104 @@
+ul#inv-menu {
+	position: fixed;
+	right: -$burger-menu-width;
+	top: 0px;
+	left: auto;
+	bottom: 0px;
+	background: $burger-menu-item-background-color;
+	color: $burger-menu-item-color;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: $burger-menu-width;
+	text-align: left;
+	overflow: auto;
+	transition-property: right;
+	transition-duration: $hamburger-hover-transition-duration;
+	transition-timing-function: $hamburger-hover-transition-timing-function;
+	
+	&.menu-show {
+		right: 0px;
+	}
+	
+	&.left {
+		right: 0;
+		left: -$burger-menu-width;
+		transition-property: left;
+		&.menu-show {
+			left: 0px;
+		}
+	}
+	
+	li {
+		list-style: none;
+		display: block;
+		width: 100%;
+		
+		a {
+			display: block;
+			width: auto;
+			color: $burger-menu-item-color;
+			background-color: $burger-menu-item-background-color;
+			font-size: $burger-menu-item-font-size;
+			line-height: $burger-menu-item-line-height;
+			padding: 0 10px;
+			border: 0;
+			text-decoration: none;
+			&:hover ,
+			&:focus ,
+			&:active {
+				background: $burger-menu-item-hover-background-color;
+				color: $burger-menu-item-hover-color;
+				text-decoration: none;
+			}
+			
+		}
+		
+		ul {
+		
+			position: relative;
+			top: auto;
+			left: auto;
+			right: auto;
+			bottom: auto;
+			width: auto;
+			padding: 0;
+			margin: 0;
+		
+			li {
+			
+				a {
+					display: block;
+					width: auto;
+					color: $burger-menu-item-color;
+					background-color: $burger-submenu-item-background-color;
+					/*border-bottom: darken($burger-submenu-item-background-color, 10%) 1px solid;*/
+					color: $burger-submenu-item-hover-color;
+					font-size: $burger-submenu-item-font-size;
+					line-height: $burger-submenu-item-line-height;
+					padding: 0 10px 0 20px;
+					&:hover ,
+					&:focus ,
+					&:active {
+						color: $burger-submenu-item-hover-background-color;
+						background-color: $burger-submenu-item-hover-color;
+						text-decoration: none;
+					}
+					
+					img {
+						display: none;
+					}
+							
+					.nav-description {
+						display: none;
+					}
+					
+				}
+				
+			}
+		
+		}
+		
+	}
+	
+}

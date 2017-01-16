@@ -1,0 +1,80 @@
+$heading-font: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+$heading-font-weight: 400;
+
+$header-z-index: 20;
+$header-height: 85px;
+$header-height-sm: 85px;
+$logo-margin: 4px;
+$header-affix-height: 50px;
+$header-submenu-height: 400px;
+$header-submenu-width: 900px;
+$header-submenu-cols: 3;
+$burger-menu-width: 260px;
+
+$menu-color: #333;
+$menu-background-color: transparent;
+$burger-menu-color: #FFF;
+$burger-menu-background-color: #333;
+
+
+$hamburger-background-color: #333;
+$hamburger-text-color: #FFF;
+$header-affix-height: 50px;
+
+$header-submenu-height: 400px;
+$header-submenu-width: 900px;
+$header-submenu-cols: 3;
+
+$menu-item-font-size: 14px;
+$menu-item-line-height: $header-height;
+$menu-item-color: $menu-color;
+$menu-item-background-color: $menu-background-color;
+$menu-item-hover-color: #FFF;
+$menu-item-hover-background-color: $menu-color;
+
+$submenu-item-hover-color: #FFF;
+$submenu-item-hover-background-color: darken($menu-color , 30%);
+
+$burger-menu-item-font-size: 18px;
+$burger-menu-item-line-height: 40px;
+$burger-menu-item-color: $burger-menu-color;
+$burger-menu-item-background-color: $burger-menu-background-color;
+$burger-menu-item-hover-color: $burger-menu-item-color;
+$burger-menu-item-hover-background-color: darken($burger-menu-item-background-color , 30%);
+
+$burger-submenu-item-font-size: 18px;
+$burger-submenu-item-line-height: 40px;
+$burger-submenu-item-color: $burger-menu-color;
+$burger-submenu-item-background-color: $burger-menu-background-color;
+$burger-submenu-item-hover-color: $burger-submenu-item-color;
+$burger-submenu-item-hover-background-color: darken($burger-submenu-item-background-color , 30%);
+
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+
+// Settings
+// ==================================================
+$hamburger-padding-x                       : 15px !default;
+$hamburger-padding-y                       : 15px !default;
+$hamburger-layer-width                     : 40px !default;
+$hamburger-layer-height                    : 4px !default;
+$hamburger-layer-spacing                   : 6px !default;
+$hamburger-layer-color                     : #000 !default;
+$hamburger-layer-border-radius             : 4px !default;
+$hamburger-hover-opacity                   : 1 !default;
+$hamburger-hover-transition-duration       : 0.15s !default;
+$hamburger-hover-transition-timing-function: linear !default;
+
+// To use CSS filters as the hover effect instead of opacity,
+// set $hamburger-hover-use-filter as true and
+// change the value of $hamburger-hover-filter accordingly.
+$hamburger-hover-use-filter: false !default;
+$hamburger-hover-filter    : opacity(50%) !default;
+
+/* From bootstrap */
+$screen-md-min: 768px;

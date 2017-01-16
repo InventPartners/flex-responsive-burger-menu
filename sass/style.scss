@@ -1,0 +1,11 @@
+/*!
+ * Compile with:
+ * cd /var/www/dotadmin/3.0/site/invent
+ * sass htdocs/layout/sass/style.scss htdocs/layout/css/style.css
+ * sass --no-cache htdocs/layout/sass/style.scss htdocs/layout/css/style.css
+ * sass --no-cache htdocs/layout/sass/style.scss htdocs/layout/css/style.css --style compressed
+ */
+
+@import "bootstrap.scss";
+@import "hamburgers.scss";
+@import "sections.scss";

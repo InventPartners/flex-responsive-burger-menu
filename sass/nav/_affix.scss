@@ -1,0 +1,40 @@
+ul#inv-menu {
+	&.header-affix {
+		
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: auto;
+		height: $header-affix-height;
+		border-bottom: 0;
+		/*box-shadow: 0px 1px 1px #AAA;*/
+
+		.container ,
+		.container-fluid { 	
+
+			#logo {
+				height: $header-affix-height - ($logo-margin * 2);
+			}
+		
+			#nav-main-btn {
+				line-height: 22px;
+				font-size: 14px;
+				padding-top: 10px;
+			}			
+		
+			@media screen and (min-width: $screen-md-min) {
+				ul {
+					li {
+						a {
+							line-height: $header-affix-height;
+						}
+						ul {
+							top: $header-affix-height;
+						}
+					}
+				}
+			}
+		}
+	}
+}
