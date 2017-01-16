@@ -21,6 +21,6 @@ Markup your burger menu with an id of `inv-nav-main-btn`.
 
 View the source of the [demo page](https://inventpartners.github.io/flex-responsive-burger-menu/) for further guidance on the markup etc.
 
-More details here: [http://www.inventpartners.com/open-source/flex-responsive-burger-menu]
+More details here: [http://www.inventpartners.com/open-source/flexible-responsive-burger-menu]
 
 
