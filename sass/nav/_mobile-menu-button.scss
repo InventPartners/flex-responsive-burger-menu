@@ -13,6 +13,7 @@
 	transition-property: right;
 	transition-duration: 0.15s;
 	transition-timing-function: linear;
+	z-index: 2;
 	
 	&:focus {
 		outline: 0;
