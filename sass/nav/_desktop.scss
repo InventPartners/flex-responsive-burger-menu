@@ -60,6 +60,7 @@
 					background-color: $menu-item-hover-background-color;
 					position: absolute;
 					top: $menu-item-line-height;
+					width: $header-submenu-width;
 					padding: 0;
 					margin: 0;
 					text-align: left;
@@ -70,7 +71,7 @@
 					
 					li {
 						text-align: left;
-						width: $header-submenu-width / $header-submenu-cols;
+						width: $header-submenu-width;
 						padding: 0;
 						margin: 0;
 						display: block;
@@ -84,7 +85,7 @@
 							width: auto;
 							padding: 10px;
 							margin: 0;
-							min-height: $header-submenu-height / 6;
+							width: $header-submenu-width;
 							border: 0;
 							-webkit-transition-property: background;
 							transition-property: background;

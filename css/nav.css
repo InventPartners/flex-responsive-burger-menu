@@ -85,7 +85,8 @@
   margin: 0;
   transition-property: right;
   transition-duration: 0.15s;
-  transition-timing-function: linear; }
+  transition-timing-function: linear;
+  z-index: 2; }
   #inv-nav-main-btn:focus {
     outline: 0;
     outline: none;
@@ -126,7 +127,8 @@ ul#inv-menu {
   overflow: auto;
   transition-property: right;
   transition-duration: 0.15s;
-  transition-timing-function: linear; }
+  transition-timing-function: linear;
+  z-index: 2; }
   ul#inv-menu.menu-show {
     right: 0px; }
   ul#inv-menu.left {
@@ -231,6 +233,7 @@ ul#inv-menu {
           background-color: #333;
           position: absolute;
           top: 85px;
+          width: 260px;
           padding: 0;
           margin: 0;
           text-align: left;
@@ -240,7 +243,7 @@ ul#inv-menu {
           */ }
           ul#inv-menu li:hover ul li, ul#inv-menu li.menu-show ul li {
             text-align: left;
-            width: 300px;
+            width: 260px;
             padding: 0;
             margin: 0;
             display: block;
@@ -253,7 +256,7 @@ ul#inv-menu {
               width: auto;
               padding: 10px;
               margin: 0;
-              min-height: 66.66667px;
+              width: 260px;
               border: 0;
               -webkit-transition-property: background;
               transition-property: background;
