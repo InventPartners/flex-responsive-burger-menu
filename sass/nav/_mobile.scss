@@ -15,7 +15,7 @@ ul#inv-menu {
 	transition-property: right;
 	transition-duration: $hamburger-hover-transition-duration;
 	transition-timing-function: $hamburger-hover-transition-timing-function;
-	z-index: 2;
+	z-index: $menu-z-index;
 	
 	&.menu-show {
 		right: 0px;

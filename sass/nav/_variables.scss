@@ -43,6 +43,8 @@ $burger-submenu-item-background-color: $burger-menu-background-color;
 $burger-submenu-item-hover-color: $burger-submenu-item-color;
 $burger-submenu-item-hover-background-color: darken($burger-submenu-item-background-color , 30%);
 
+$menu-z-index: 100;
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers

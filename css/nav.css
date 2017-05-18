@@ -86,7 +86,7 @@
   transition-property: right;
   transition-duration: 0.15s;
   transition-timing-function: linear;
-  z-index: 2; }
+  z-index: 100; }
   #inv-nav-main-btn:focus {
     outline: 0;
     outline: none;
@@ -128,7 +128,7 @@ ul#inv-menu {
   transition-property: right;
   transition-duration: 0.15s;
   transition-timing-function: linear;
-  z-index: 2; }
+  z-index: 100; }
   ul#inv-menu.menu-show {
     right: 0px; }
   ul#inv-menu.left {
