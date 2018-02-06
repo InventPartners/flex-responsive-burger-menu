@@ -1,49 +1,49 @@
-$heading-font: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
-$heading-font-weight: 400;
+$heading-font: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif !default;
+$heading-font-weight: 400 !default;
 
-$header-z-index: 20;
-$header-height: 85px;
-$header-height-sm: 85px;
-$logo-margin: 4px;
-$header-affix-height: 50px;
-$header-submenu-width: 260px;
-$header-submenu-cols: 3;
-$burger-menu-width: 260px;
+$header-z-index: 20 !default;
+$header-height: 85px !default;
+$header-height-sm: 85px !default;
+$logo-margin: 4px !default;
+$header-affix-height: 50px !default;
+$header-submenu-width: 260px !default;
+$header-submenu-cols: 3 !default;
+$burger-menu-width: 260px !default;
 
-$menu-color: #333;
-$menu-background-color: transparent;
-$burger-menu-color: #FFF;
-$burger-menu-background-color: #333;
+$menu-color: #333 !default;
+$menu-background-color: transparent !default;
+$burger-menu-color: #FFF !default;
+$burger-menu-background-color: #333 !default;
 
-$hamburger-background-color: #333;
-$hamburger-text-color: #FFF;
-$header-affix-height: 50px;
+$hamburger-background-color: #333 !default;
+$hamburger-text-color: #FFF !default;
+$header-affix-height: 50px !default;
 
-$menu-item-font-size: 14px;
-$menu-item-line-height: $header-height;
-$menu-item-color: $menu-color;
-$menu-item-background-color: $menu-background-color;
-$menu-item-hover-color: #FFF;
-$menu-item-hover-background-color: $menu-color;
+$menu-item-font-size: 14px !default;
+$menu-item-line-height: $header-height !default;
+$menu-item-color: $menu-color !default;
+$menu-item-background-color: $menu-background-color !default;
+$menu-item-hover-color: #FFF !default;
+$menu-item-hover-background-color: $menu-color !default;
 
-$submenu-item-hover-color: #FFF;
-$submenu-item-hover-background-color: darken($menu-color , 30%);
+$submenu-item-hover-color: #FFF !default;
+$submenu-item-hover-background-color: darken($menu-color , 30%) !default;
 
-$burger-menu-item-font-size: 18px;
-$burger-menu-item-line-height: 40px;
-$burger-menu-item-color: $burger-menu-color;
-$burger-menu-item-background-color: $burger-menu-background-color;
-$burger-menu-item-hover-color: $burger-menu-item-color;
-$burger-menu-item-hover-background-color: darken($burger-menu-item-background-color , 30%);
+$burger-menu-item-font-size: 18px !default;
+$burger-menu-item-line-height: 40px !default;
+$burger-menu-item-color: $burger-menu-color !default;
+$burger-menu-item-background-color: $burger-menu-background-color !default;
+$burger-menu-item-hover-color: $burger-menu-item-color !default;
+$burger-menu-item-hover-background-color: darken($burger-menu-item-background-color , 30%) !default;
 
-$burger-submenu-item-font-size: 18px;
-$burger-submenu-item-line-height: 40px;
-$burger-submenu-item-color: $burger-menu-color;
-$burger-submenu-item-background-color: $burger-menu-background-color;
-$burger-submenu-item-hover-color: $burger-submenu-item-color;
-$burger-submenu-item-hover-background-color: darken($burger-submenu-item-background-color , 30%);
+$burger-submenu-item-font-size: 18px !default;
+$burger-submenu-item-line-height: 40px !default;
+$burger-submenu-item-color: $burger-menu-color !default;
+$burger-submenu-item-background-color: $burger-menu-background-color !default;
+$burger-submenu-item-hover-color: $burger-submenu-item-color !default;
+$burger-submenu-item-hover-background-color: darken($burger-submenu-item-background-color , 30%) !default;
 
-$menu-z-index: 100;
+$menu-z-index: 100 !default;
 
 /*!
  * Hamburgers
@@ -56,21 +56,21 @@ $menu-z-index: 100;
 // Settings
 // ==================================================
 $hamburger-padding-x                       : 15px !default;
-$hamburger-padding-y                       : 15px !default;
-$hamburger-layer-width                     : 40px !default;
-$hamburger-layer-height                    : 4px !default;
-$hamburger-layer-spacing                   : 6px !default;
-$hamburger-layer-color                     : #000 !default;
-$hamburger-layer-border-radius             : 4px !default;
-$hamburger-hover-opacity                   : 1 !default;
-$hamburger-hover-transition-duration       : 0.15s !default;
-$hamburger-hover-transition-timing-function: linear !default;
+$hamburger-padding-y                       : 15px  !default;
+$hamburger-layer-width                     : 40px  !default;
+$hamburger-layer-height                    : 4px  !default;
+$hamburger-layer-spacing                   : 6px  !default;
+$hamburger-layer-color                     : #000  !default;
+$hamburger-layer-border-radius             : 4px  !default;
+$hamburger-hover-opacity                   : 1  !default;
+$hamburger-hover-transition-duration       : 0.15s  !default;
+$hamburger-hover-transition-timing-function: linear  !default;
 
 // To use CSS filters as the hover effect instead of opacity,
 // set $hamburger-hover-use-filter as true and
 // change the value of $hamburger-hover-filter accordingly.
-$hamburger-hover-use-filter: false !default;
-$hamburger-hover-filter    : opacity(50%) !default;
+$hamburger-hover-use-filter: false  !default;
+$hamburger-hover-filter    : opacity(50%)  !default;
 
 /* From bootstrap */
-$screen-md-min: 768px;
+$screen-md-min: 768px !default;
