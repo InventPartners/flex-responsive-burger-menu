@@ -4,11 +4,11 @@
 	right: 0px;
 	display: block;
 	border: 0;
-	background-color: rgba(0,0,0, 0.2);
-	color: #FFF;
-	line-height: 32px;
-	font-size: 22px;
-	padding: 10px;
+	background-color: $inv-nav-main-btn-background-color;
+	color: $inv-nav-main-btn-color;
+	line-height: $inv-nav-main-btn-line-height;
+	font-size: $inv-nav-main-btn-font-size;
+	padding:  $inv-nav-main-btn-padding;
 	margin: 0;
 	transition-property: right;
 	transition-duration: 0.15s;

@@ -29,6 +29,12 @@ $menu-item-hover-background-color: $menu-color !default;
 $submenu-item-hover-color: #FFF !default;
 $submenu-item-hover-background-color: darken($menu-color , 30%) !default;
 
+$inv-nav-main-btn-padding: 10px !default;
+$inv-nav-main-btn-font-size: 22px !default;
+$inv-nav-main-btn-line-height: 32px !default;
+$inv-nav-main-btn-color: #FFF !default;
+$inv-nav-main-btn-background-color: rgba(0,0,0, 0.2) !default;
+
 $burger-menu-item-font-size: 18px !default;
 $burger-menu-item-line-height: 40px !default;
 $burger-menu-item-color: $burger-menu-color !default;
