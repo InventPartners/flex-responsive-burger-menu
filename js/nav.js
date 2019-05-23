@@ -6,17 +6,18 @@ $('document').ready(function(){
 			$('#inv-nav-main-btn').removeClass('is-active');
 			$('#inv-menu').removeClass('menu-show');
 		} else {
-
-			$('body').append('<div id="inv-nav-mask"></div>');
+			
+			$('<div id="inv-nav-mask"></div>').click(function() {
+				$('#inv-nav-mask').remove();
+				$('#inv-nav-main-btn').removeClass('is-active');
+				$('#inv-menu').removeClass('menu-show');
+			}).appendTo($('body'));			
+			
 			$('#inv-nav-main-btn').addClass('is-active');
 			$('#inv-menu').addClass('menu-show');
 		}
 	});
-	$('body').on('click' , '#inv-nav-mask' , function(){
-		$('#inv-nav-mask').remove();
-		$('#inv-nav-main-btn').removeClass('is-active');
-		$('#inv-menu').removeClass('menu-show');
-	});
+
 	
 	checkAffix();
 	$(window).scroll(checkAffix);
